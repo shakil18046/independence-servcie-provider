@@ -1,0 +1,42 @@
+.navactive {
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navinactive {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+}
+.navactive:not(:last-child) {
+  margin-right: 15px;
+}
+.navinactive:not(:last-child) {
+  margin-right: 15px;
+}
+.nav-wrapper {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #3a52d8;
+}
+.signout-btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  background: none;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  .navactive,
+  .navinactive {
+    font-size: 14px;
+  }
+  .navactive:not(:last-child) {
+    margin-right: 8px;
+  }
+  .navinactive:not(:last-child) {
+    margin-right: 8px;
+  }
+}

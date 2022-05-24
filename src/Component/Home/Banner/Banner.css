@@ -1,0 +1,43 @@
+.hero-area-wrapper {
+  background-image: url(../../../img/banner.jpg);
+  background-size: cover;
+  background-position: top center;
+  padding: 80px 0;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-heading {
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  width: 50%;
+}
+.hero-heading-inner {
+  color: #ec3449;
+}
+.hero-btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 1.3rem 2.5rem;
+  background-color: #3a52d8;
+}
+.hero-btn-wrapper {
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .hero-heading {
+    font-size: 30px;
+  }
+  .hero-area-wrapper {
+    height: 50vh;
+  }
+  .hero-btn {
+    color: #ffffff;
+    padding: 14px 25px;
+    margin-top: 10px;
+  }
+}
